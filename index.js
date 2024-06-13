@@ -9,7 +9,7 @@ const saltRounds = 10;
 const { MongoClient } = require('mongodb');
 
 // Connection URL
-const url = "mongodb://localhost:27017"
+const url = "mongodb+srv://siddbhardwaj2005:GjK7iXeBfRICErMH@cluster0.jzpnccz.mongodb.net/contact-db?retryWrites=true&w=majority&appName=Cluster0"
 const client = new MongoClient(url)
 const dbName = 'mriirs';
 let db;
